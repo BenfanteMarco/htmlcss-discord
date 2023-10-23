@@ -39,6 +39,10 @@
     height: 50px;
 }
 
+.col-40{
+    width: 40%;
+}
+
 .height-300{
     height: 300px;
 }
@@ -51,8 +55,16 @@
     background-color: pink;
 }
 
+.bg-aquamarine{
+    background-color: aquamarine;
+}
+
 .border-column{
     border: 1px dashed black;
+}
+
+.border-column-white{
+    border: 1px dashed white;
 }
 
 /* HEADER */
@@ -68,4 +80,30 @@ header{
 main{
     background-color: darkblue;
     padding: 20px 0;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(59, 59, 59);
+    padding-top: 10px;
+}
+
+hr{
+    background-color: grey;
+    margin: 10px 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side{
+    padding: 10px;
+}
+
+.padding-y-10{
+    padding: 10px 0;
 }
