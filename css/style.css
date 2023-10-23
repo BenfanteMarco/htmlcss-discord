@@ -18,18 +18,9 @@
     margin: 0 auto;
 }
 
-.row{
-    width: 100%;
-    display: flex;
-}
 
-.col-15{
-    width: 15%;
-}
 
-.col-70{
-    width: 70%;
-}
+
 
 .col-100{
     width: 100%;
@@ -86,9 +77,53 @@
 /* HEADER */
 
 header{
-    background-color: lightblue;
+    background-color: #0033CC;
     height: 75px;
     padding: 10px 0;
+}
+
+.font{
+    font-family: 'Onest', sans-serif;
+}
+
+.row{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.col-15{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button{
+    padding: 7px;
+    font-size: 12px;
+    border: none;
+    border-radius: 12px;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.nav{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 /* MAIN */
@@ -96,6 +131,7 @@ header{
 .bg-darkblue{
     background-color: darkblue;
     padding: 20px 0;
+    background-image: url(./img);
 }
 
 .margin-y-30{
