@@ -10,9 +10,6 @@
     max-width: 1200px;
 }
 
-.container-sm{
-    max-width: 991px;
-}
 
 .margin-container{
     margin: 0 auto;
@@ -22,17 +19,10 @@
 
 
 
-.col-100{
-    width: 100%;
-}
 
-.col-40{
-    width: 40%;
-}
 
-.col-60{
-    width: 60%;
-}
+
+
 
 .height-50{
     height: 50px;
@@ -62,9 +52,7 @@
     background-color: green;
 }
 
-.bg-grey{
-    background-color: grey;
-}
+
 
 .border-column{
     border: 1px dashed black;
@@ -77,7 +65,7 @@
 /* HEADER */
 
 header{
-    background-color: #0033CC;
+    background-color: rgba(37,94,233,255);
     height: 75px;
     padding: 10px 0;
 }
@@ -128,10 +116,64 @@ header{
 
 /* MAIN */
 
+.container-sm{
+    max-width: 991px;
+}
+
 .bg-darkblue{
-    background-color: darkblue;
     padding: 20px 0;
-    background-image: url(./img);
+}
+
+.img-header{
+    padding: 20px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.col-100{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titolo{
+    font-family: 'Onest', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.col-60{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.item-1{
+    height: 400px;
+}
+
+.col-40{
+    width: 40%;
+    display: flex;
+}
+
+.titolo-item-1{
+    font-family: 'Onest', sans-serif;
+    font-size: 30px;
+    align-self: center;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.img-finale-main{
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    margin-top: 50px;
 }
 
 .margin-y-30{
