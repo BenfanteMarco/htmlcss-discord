@@ -8,6 +8,13 @@
 
 .container{
     max-width: 1200px;
+}
+
+.container-sm{
+    max-width: 991px;
+}
+
+.margin-container{
     margin: 0 auto;
 }
 
@@ -24,12 +31,24 @@
     width: 70%;
 }
 
+.col-100{
+    width: 100%;
+}
+
 .height-50{
     height: 50px;
 }
 
+.height-300{
+    height: 300px;
+}
+
 .bg-orange{
     background-color: orange;
+}
+
+.bg-pink{
+    background-color: pink;
 }
 
 .border-column{
@@ -45,3 +64,8 @@ header{
 }
 
 /* MAIN */
+
+main{
+    background-color: darkblue;
+    padding: 20px 0;
+}
